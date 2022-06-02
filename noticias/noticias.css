@@ -1,0 +1,411 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f3ecdd;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* HEAD */
+
+.head {
+    display: grid;
+    grid-template-columns: 90% 10%;
+    background: #ca934c;
+    padding: 10px;
+    font-size: 10px;
+}
+
+/* NAVEGATION */
+
+nav {
+    font-size: 15px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0px;
+    cursor: hand;
+}
+
+nav ul {
+    font-size: 15px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0px;
+    cursor: hand;
+}
+
+nav ul li {
+    margin: 8px;
+}
+
+nav ul li a{
+    padding: 3px;
+}
+
+nav ul li a:hover {
+    border: 1px gray solid;
+    border-radius: 5px;
+}
+
+/* BANNER 1 */
+
+.banner1 {
+    background: url(./img/banner1.jpeg);
+    height: 300px;
+    margin: 0px 10px;
+    color: aliceblue;
+}
+
+.banner-content {
+    padding: 50px;
+}
+
+.banner-content p {
+    padding: 10px;
+}
+
+/* NEWS CARDS */
+
+.noticias h2 {
+    text-align: center;
+    margin: 30px;
+}
+
+.categorias {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0px;
+    cursor: hand;
+    gap: 5px;
+}
+
+.categorias a:hover {
+    color: rgb(255, 64, 64);
+    transition: 0.3s;
+}
+
+.news-cards {
+    font-size: 15px;
+    align-items: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px;
+    gap: 40px;
+}
+
+.news {
+    background: white;
+    max-width: 300px;
+    max-height: 500px;
+    border-radius: 15px;
+    text-align: left;
+}
+
+.news h3 {
+    margin: 10px;
+}
+
+.leermas {
+    text-align: center;
+}
+
+.leermas a {
+    color: #48b3da;
+}
+
+.leermas a:hover {
+    color: #17678f;
+    transition: 0.3s;
+}
+
+.news .links-news {
+    margin: 5px 10px;
+    
+}
+
+.news .links-news a {
+    color: #ca934c;
+}
+
+.news p {
+    margin: 20px;
+}
+
+.news div img {
+    width: 100%;
+    height: 260px;
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+}
+
+/* BUTTON SEE MORE */
+
+.vermas {
+    text-align: center;
+}
+
+.vermas a {
+    padding: 5px 10px;
+    border: 1px gray solid;
+    border-radius: 5px;
+}
+
+.vermas a:hover {
+    opacity: .5;
+    background: gray;
+    transition: 0.5s;
+}
+
+/* BANNER 2 */
+
+.banner2 {
+    background: white;
+    max-width: 100%;
+    min-height: 370px;
+    border-radius: 5px;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.banner2 img {
+    height: 370px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.banner2 h2 {
+    margin: 20px 20px 10px;
+}
+
+.banner2 p {
+    margin: 5px 20px 100px;
+}
+
+/* FOOTER */
+
+footer {
+    background: #077dc2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+    max-width: 100%;
+}
+
+footer a {
+    color: white;
+}
+
+.contacto {
+    padding: 50px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    font-size: 15px;
+}
+
+.suscribir {
+    padding: 50px;
+}
+
+.suscribir div input {
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.suscribir div p {
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+
+.suscribir div p a {
+    text-decoration-line: underline;
+}
+
+.suscribir div p a:hover {
+    opacity: .5;
+    transition: 0.5s;
+}
+
+.suscribir-btn {
+    text-align: center;
+}
+
+.suscribir-btn {
+    padding: 2px 50px;
+    border: 1px gray solid;
+    border-radius: 5px;
+    background: #48b3da;
+}
+
+.suscribir-btn:hover {
+    opacity: .5;
+    background: gray;
+    transition: 0.5s;
+}
+
+.nosotros {
+    padding: 50px;
+}
+
+.nosotros h1 {
+    padding-bottom: 10px;
+}
+
+.nosotros p {
+    font-size: 15px;
+}
+
+/* FOOT */
+.down{
+    background-color: #17678f;
+    font-size: 12px;
+    height: 50px;
+}
+.down-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    color: #077dc2;
+    padding: 15px;
+}
+
+.down a {
+    color: #077dc2;
+}
+
+/* MEDIAQUERY*/
+
+@media (max-width: 975px) {
+    .news-cards {
+        font-size: 15px;
+        align-items: center;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 50px;
+        gap: 40px;
+    }
+
+    .banner2 h2 {
+        font-size: 20px;
+    }
+    
+    .banner2 p {
+        font-size: 15px;
+    }
+
+    footer p, footer a {
+        font-size: 12px;
+    }
+
+    footer h1, footer h2 {
+        font-size: 15px;
+    }
+
+    .contacto {
+        padding: 30px;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        font-size: 15px;
+    }
+
+    .suscribir {
+        padding: 30px;
+    }
+
+    .nosotros {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 724px) {
+    .banner2 h2 {
+        margin: 17px 17px 8px;
+        font-size: 18px;
+    }
+    
+    .banner2 p {
+        margin: 4px 17px 70px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 675px) {
+    .news-cards {
+        font-size: 15px;
+        align-items: center;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 50px;
+        gap: 40px;
+    }
+    .banner2 h2 {
+        margin: 17px 17px 8px;
+        font-size: 16px;
+    }
+    
+    .banner2 p {
+        margin: 3px 15px 65px;
+        font-size: 12px;
+    }
+
+    footer p, footer a {
+        font-size: 9px;
+    }
+
+    footer h1, footer h2 {
+        font-size: 13px;
+    }
+
+    .contacto {
+        padding: 20px;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        font-size: 13px;
+    }
+
+    .suscribir {
+        padding: 20px;
+    }
+
+    .nosotros {
+        padding: 20px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 546px) {
+    .banner2 h2 {
+        margin: 17px 17px 8px;
+        font-size: 16px;
+    }
+    
+    .banner2 p {
+        margin: 3px 15px 65px;
+        font-size: 12px;
+    }
+}
